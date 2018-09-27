@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: grey;
+	font-size: 1.5em;
+	text-align: center;
+}
+.pagename {
+	color: gray;
+	/*text-align: center;*/
+ 	/* display: flex;*/
+	flex-direction: row;
+	/*border-spacing: 20px;*/
+	/*border: solid gray;*/
+}
+#foodmenu {
+	font-size: 1.5em;
+	flex: 1;
+}
+.morefoodmenu{
+	color: burlywood;
+}
+#menulist {
+	/*opacity: 0.5;*/
+	background-color: antiquewhite;
+}
+.vsidebar {
+	float: left;
+	width: 10%;
+	background-color: #eeeeee;
+	padding: 10px;
+	border:solid #DEB887;
+	flex-direction: column;
+}
